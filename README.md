@@ -19,6 +19,8 @@ Run it
 $ npm start # or yarn start
 ```
 
+project demo link - https://cdwjz7-5173.csb.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
