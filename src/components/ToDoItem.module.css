@@ -1,0 +1,44 @@
+.todo_list {
+    display: flex;
+    width: 25%;
+    margin-top: 2%;
+}
+
+.todo_list ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.todo_list ul li{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    border-bottom: 2px solid lightseagreen;
+   
+}
+
+.checkboxInput {
+    padding: 0;
+    margin: 0 1% 0 0;
+}
+
+.todo_list ul li .action_items {
+  margin-left: auto;
+}
+.action_items button {
+    border: none;
+    padding: 0;
+    background: none;
+    font-size: large;
+    color: lightseagreen;
+    cursor: pointer;
+  }
+
+  .inputListValue {
+    width: 85%;
+    border: none;
+  }
+
+  

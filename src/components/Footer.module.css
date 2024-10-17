@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightseagreen;
+    margin-top: 9%;
+    padding: 1%;
+    align-items: center;
+  }
+
+  .footer label {
+    color: white;
+  }
+
+  .footer button {
+    border: none;
+    border-radius: 3px;
+    margin-left: auto;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+    padding: 2%;
+  }
+
+  .footer button:hover{
+    background-color: rgb(33 115 112 / 57%);
+  }
+
+  .footer button.active {
+    border: 2px solid white;
+    background-color: rgb(34 153 149 / 51%);
+  }
